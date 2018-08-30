@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido!"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:layout_marginTop="50dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Con el proposito de explorar la Reaccion de los Alumnos de la carrera de TIC's frente a diferentes estimulos Sonoros al momento de estudio, se desarrolla StudyWell"
+        android:textAlignment="center"
+        android:layout_marginTop="30dp"
+        android:textSize="18dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/icono1"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/next"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:clickable="true"
+        app:backgroundTint="@android:color/holo_red_dark"
+        app:srcCompat="@android:drawable/ic_media_play"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        />
+
+
+</LinearLayout>
