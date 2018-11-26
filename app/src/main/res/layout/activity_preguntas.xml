@@ -17,12 +17,14 @@
             android:text="Pregunta #"
             android:textSize="30dp"
             android:textStyle="bold"
+            android:id="@+id/titulo"
             />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Blablablablabla pregunta blablabla"
-            android:textSize="20dp"/>
+            android:textSize="20dp"
+            android:id="@+id/pregunta"/>
         <RadioGroup
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -30,16 +32,26 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Respuesta 1"/>
+                android:text="Respuesta 1"
+                android:id="@+id/btn1"/>
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Respuesta 2"/>
+                android:text="Respuesta 2"
+                android:id="@+id/btn2"/>
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Respuesta 2"/>
+                android:text="Respuesta 3"
+                android:id="@+id/btn3"/>
         </RadioGroup>
+        <ProgressBar
+            android:id="@+id/barra"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"/>
     </LinearLayout>
 
     <Button
@@ -63,5 +75,4 @@
         android:background="#00000000"
         android:textColor="#001eff"
         />
-
 </FrameLayout>
